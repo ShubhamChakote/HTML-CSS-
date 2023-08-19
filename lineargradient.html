@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient</title>
+    <style>
+
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        #box1{
+            background-image: linear-gradient(red,pink);
+        }
+
+        #box2{
+            background-image: linear-gradient(to top  , green,blue);
+        }
+
+        #box3{
+            background-image: linear-gradient(to right,orange,red);
+        }
+
+        #box4{
+            background-image: linear-gradient(to left,salmon,brown);
+        }
+
+        #box5{
+            background-image: linear-gradient(to right top,purple,yellow);
+        }
+
+        #box6{
+            background-image: linear-gradient(to left top,purple,yellow);
+        }
+        
+        #box7{
+            background-image: linear-gradient(to right bottom,purple,yellow);
+        }
+
+        #box8{
+            background-image: linear-gradient(to left bottom,purple,yellow);
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="box1" class="box">default  to bottom</div>
+    <div id="box2"  class="box">to top</div>
+    <div id="box3"  class="box">to right</div>
+    <div id="box4"  class="box">to left</div>
+    <div id="box5"  class="box">to right top</div>
+    <div id="box6"  class="box">to left top</div>
+    <div id="box7"  class="box">to right bottom</div>
+    <div id="box8" class="box">to left bottom</div>
+
+</body>
+</html>
