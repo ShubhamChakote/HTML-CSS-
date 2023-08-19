@@ -1,0 +1,108 @@
+/* .box{
+    height: 500px;
+    width: 600px;
+    background-color: salmon;
+}
+
+@media (max-width:500px) {
+
+    .box{
+
+        height: 300px;
+        width: 400px;
+        background-color: brown;
+
+    }
+
+    
+    
+} */
+
+/*.main{
+
+    height: 500px;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.subdiv{
+    height: 100px;
+    width: 150px;
+    background-color: brown;
+
+}
+
+@media (max-width:1280px){
+
+    .main{
+
+    
+       
+        flex-direction: column;
+    
+    
+    
+    }
+
+}*/
+
+.main{
+
+    height: 500px;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+#first , #second{
+
+    height: 150px;
+    width: 200px;
+    background-color: brown;
+
+
+}
+
+.div-image{
+
+    height: 250px;
+    width: 300px;
+    background-image: url("laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media (max-width:640px){
+
+    .main{
+        flex-direction: column;
+    }
+    #first , #second{
+
+        height: 110px;
+        width: 170px;
+
+    }
+    .div-image{
+        height: 150px;
+        width: 200px;
+    }
+
+
+}
+
